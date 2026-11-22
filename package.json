@@ -1,0 +1,25 @@
+{
+  "name": "reprokit",
+  "version": "0.1.0",
+  "description": "Zero-dependency GitHub issue reproduction scaffolder and before/after fix proof recorder.",
+  "type": "module",
+  "bin": {
+    "reprokit": "./bin/reprokit.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "license": "MIT"
+}
